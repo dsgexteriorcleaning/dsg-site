@@ -4,39 +4,107 @@
   <meta charset="utf-8" />
   <title>Blog | DSG Exterior Cleaning</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Guides and articles on soft washing, driveway care, gutters, and more for Hudson Valley homeowners." />
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>
-  <!-- reuse your header here exactly like other pages -->
-  <!-- ... -->
+  <header class="topbar">
+    <div class="wrap">
+      <div class="nav">
+        <a href="/index.html" class="brand">
+          <div class="brand-logo">
+            <img src="/assets/img/dsg-logo.png" alt="DSG Exterior Cleaning logo" />
+          </div>
+          <div class="brand-text">
+            <span>DSG Exterior Cleaning</span>
+            <span>Professional care for your home</span>
+          </div>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="/services.html">Services</a>
+          <a href="/pricing.html">Pricing</a>
+          <a href="/about.html">About</a>
+          <a href="/reviews.html">Reviews</a>
+          <a href="/veterans.html">Veterans</a>
+          <a href="/blog/index.html">Blog</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn btn-quiet" href="tel:+1-555-555-5555">Call</a>
+          <a class="btn btn-primary" href="/quote.html">Request a Quote</a>
+          <button class="menu-btn" type="button" onclick="toggleMobileNav()">Menu</button>
+        </div>
+      </div>
+    </div>
+    <div id="mobileNav" class="mobile-nav">
+      <a href="/index.html">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/about.html">About</a>
+      <a href="/reviews.html">Reviews</a>
+      <a href="/veterans.html">Veterans</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href="/quote.html">Request a Quote</a>
+    </div>
+  </header>
+
   <main>
     <section class="section">
       <div class="wrap">
         <div class="section-header">
           <p class="eyebrow">Blog</p>
-          <h1 class="section-title">Guides for a cleaner, healthier exterior.</h1>
+          <h1 class="section-title">Guides for a cleaner exterior.</h1>
           <p class="section-sub">
-            Articles on soft washing, driveway care, window cleaning, gutters, and seasonal maintenance
-            around Dutchess, Putnam, and Upper Westchester.
+            Educational posts for homeowners in Dutchess, Putnam, and Upper Westchester about soft washing,
+            driveway care, gutter maintenance, and more. Posts below are placeholders — you can turn each card
+            into a standalone article page later.
           </p>
         </div>
 
         <div class="grid-2">
           <div class="card">
-            <div class="card-header">Soft washing vs. pressure washing</div>
-            <p>Why “lower pressure + right chemistry” is often safer for siding than raw high pressure.</p>
-            <p class="card-note">Blog post coming soon.</p>
+            <div class="card-header">Soft washing vs. pressure washing.</div>
+            <p>
+              Why “lower pressure + right chemistry” is often safer for siding than raw high pressure — and how
+              that applies to homes in the Hudson Valley.
+            </p>
+            <p class="card-note">Post coming soon.</p>
           </div>
           <div class="card">
             <div class="card-header">How often should you clean your driveway?</div>
-            <p>What impacts buildup, safety, and curb appeal for Hudson Valley driveways.</p>
-            <p class="card-note">Blog post coming soon.</p>
+            <p>
+              Traffic, shade, snow, and road salt all impact how often you should clean concrete and paver
+              surfaces for safety and appearance.
+            </p>
+            <p class="card-note">Post coming soon.</p>
           </div>
+        </div>
+
+        <div class="grid-2" style="margin-top:18px;">
+          <div class="card">
+            <div class="card-header">Gutter cleaning basics for the Hudson Valley.</div>
+            <p>
+              Why leaf load, rooflines, and tree types matter — plus realistic expectations for 1–2 story homes
+              in Dutchess, Putnam, and Westchester.
+            </p>
+            <p class="card-note">Post coming soon.</p>
+          </div>
+          <div class="card">
+            <div class="card-header">When a Home Care Plan makes sense.</div>
+            <p>
+              A practical breakdown of when it’s smarter to subscribe to a plan vs. booking one-off services
+              for siding, gutters, windows, and hardscapes.
+            </p>
+            <p class="card-note">Post coming soon.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:16px;">
+          <a href="/quote.html" class="btn btn-primary">Request a Quote</a>
         </div>
       </div>
     </section>
   </main>
-  <!-- reuse footer -->
+
   <footer>
     <div class="wrap">
       <div class="footer-grid">
@@ -54,15 +122,16 @@
           <p>Soft Washing • Pressure / Flatwork • Window Cleaning • Gutter Services</p>
         </div>
         <div>
-          <strong>Contact</strong><br>
-          Phone: (555) 555-5555<br>
-          Email: hello@dsgcleaning.com<br>
+          <strong>Content note</strong><br />
+          These posts are informational only and not a step-by-step DIY guide. Exterior cleaning involves
+          safety, chemistry, and equipment risk — always use caution or hire a professional.
         </div>
       </div>
       <div class="footer-divider"></div>
       <div>© <span id="year"></span> DSG Exterior Cleaning. All rights reserved.</div>
     </div>
   </footer>
+
   <script src="/assets/js/main.js"></script>
 </body>
 </html>
