@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Request a Quote | DSG Exterior Cleaning</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Request a quote for exterior cleaning services from DSG Exterior Cleaning." />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="nav">
+        <a href="/index.html" class="brand">
+          <div class="brand-logo">
+            <img src="/assets/img/dsg-logo.png" alt="DSG Exterior Cleaning logo" />
+          </div>
+          <div class="brand-text">
+            <span>DSG Exterior Cleaning</span>
+            <span>Professional care for your home</span>
+          </div>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="/services.html">Services</a>
+          <a href="/pricing.html">Pricing</a>
+          <a href="/about.html">About</a>
+          <a href="/reviews.html">Reviews</a>
+          <a href="/veterans.html">Veterans</a>
+          <a href="/blog/index.html">Blog</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn btn-quiet" href="tel:+1-555-555-5555">Call</a>
+          <a class="btn btn-primary" href="/quote.html">Request a Quote</a>
+          <button class="menu-btn" type="button" onclick="toggleMobileNav()">Menu</button>
+        </div>
+      </div>
+    </div>
+    <div id="mobileNav" class="mobile-nav">
+      <a href="/index.html">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/about.html">About</a>
+      <a href="/reviews.html">Reviews</a>
+      <a href="/veterans.html">Veterans</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href="/quote.html">Request a Quote</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-alt">
+      <div class="wrap">
+        <div class="section-header">
+          <p class="eyebrow">Quote</p>
+          <h1 class="section-title">Request a quote.</h1>
+          <p class="section-sub">
+            Share a few details about your home and what you’d like help with. Once your CRM is connected,
+            this form will feed directly into your intake pipeline.
+          </p>
+        </div>
+
+        <div class="card card-dim">
+          <div class="card-header">Quote request (Demo)</div>
+          <form>
+            <div class="grid-2">
+              <div>
+                <label>Full name</label>
+                <input type="text" placeholder="First and last name" />
+              </div>
+              <div>
+                <label>Phone</label>
+                <input type="tel" placeholder="(###) ###-####" />
+              </div>
+            </div>
+
+            <div class="grid-2" style="margin-top:10px;">
+              <div>
+                <label>Email</label>
+                <input type="email" placeholder="you@example.com" />
+              </div>
+              <div>
+                <label>Preferred contact method</label>
+                <select>
+                  <option>Phone</option>
+                  <option>Text</option>
+                  <option>Email</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid-2" style="margin-top:10px;">
+              <div>
+                <label>Street address</label>
+                <input type="text" placeholder="123 Main St" />
+              </div>
+              <div>
+                <label>Town / County</label>
+                <input type="text" placeholder="Town, NY (Dutchess / Putnam / Westchester)" />
+              </div>
+            </div>
+
+            <div style="margin-top:10px;">
+              <label>Services you’re interested in</label>
+              <select>
+                <option>House soft wash</option>
+                <option>Roof soft wash (where appropriate)</option>
+                <option>Driveway / flatwork cleaning</option>
+                <option>Gutter cleaning / brightening</option>
+                <option>Window cleaning</option>
+                <option>Bundle (Curb Appeal / Full Exterior)</option>
+                <option>Home Care Plan subscription</option>
+              </select>
+            </div>
+
+            <div style="margin-top:10px;">
+              <label>How soon are you looking to schedule?</label>
+              <select>
+                <option>Within 2 weeks</option>
+                <option>Within 30 days</option>
+                <option>Within 60 days</option>
+                <option>Just pricing / planning</option>
+              </select>
+            </div>
+
+            <div style="margin-top:10px;">
+              <label>Notes</label>
+              <textarea rows="4" placeholder="Siding type, approximate home size, roof type, driveway size, access notes, etc."></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary" style="margin-top:12px;"
+              onclick="alert('Demo only. Connect this form to QuoteIQ or your CRM before going live.')">
+              Submit quote request (Demo)
+            </button>
+            <p class="card-note">
+              In production, this should route to your CRM (such as QuoteIQ) with automated follow-up
+              and NY sales tax handled within your estimate/invoice system.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="brand">
+            <div class="brand-logo">
+              <img src="/assets/img/dsg-logo.png" alt="DSG Exterior Cleaning logo" />
+            </div>
+            <div class="brand-text">
+              <span>DSG Exterior Cleaning</span>
+              <span>Professional care for your home</span>
+            </div>
+          </div>
+          <div class="footer-divider"></div>
+          <p>Soft Washing • Pressure / Flatwork • Window Cleaning • Gutter Services</p>
+        </div>
+        <div>
+          <strong>After you submit</strong><br />
+          Once this form is wired into your CRM, you’ll receive confirmation and a follow-up time window by
+          text, email, or phone — whichever you select as your preference.
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div>© <span id="year"></span> DSG Exterior Cleaning. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
